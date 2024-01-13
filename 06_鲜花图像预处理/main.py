@@ -5,7 +5,7 @@ import numpy as np
 OUTPUT_DIR = 'output'
 
 
-# 传入的image是opencv的图片对象
+# 缩放
 def resize_image(width, height, image):
     return cv2.resize(image, (width, height))
 
